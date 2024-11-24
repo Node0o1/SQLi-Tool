@@ -1,16 +1,16 @@
 # SQLi-Tool 
-#### ***Type: CLI application***
+*type: CLI-application*
 Simple SQLi CLI tool. Dynamically sets the payload parameters and uses a wordlists of SQLi strings to scan a form for SQL vulnerabilities.
 
 
 
 ### **Instructions:**
 
-- CLI
+- ***Run***
 ```sh
 python3 ./sqli_tool.py --wordlist [wordlist] --url [url] --format [url_encoded/json] --timeout [integer] --sleep [float]
 ```
-- HELP
+- ***Help***
 ```sh
 python3 ./sqli_tool.py --help
 ```

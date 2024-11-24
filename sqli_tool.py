@@ -140,7 +140,6 @@ def main() -> None:
     url,sqli_wordlist,payload_format,timeout,sleep_rate = (args.url, args.filename, args.payload_format, args.timeout, args.sleep_rate)
     if(not(url)):url=str(input("URL> "))
     if(not(sqli_wordlist)):str(input("SQLi-Wordlist> "))
-    
     SQLi:object = SQLi_Worker(url= url, payload_format= payload_format, timeout= timeout)
     SQLi.response_details("DEFAULT RESPONSE", SQLi.get_default())
 
@@ -159,12 +158,8 @@ def main() -> None:
             SQLi.log_payload_success(payload_string)
             sleep(sleep_rate)
 
-    succesful_payloads:list = SQLi.get_success_responses()
-    print("\nSuccessful Payloads: ")
-    for payload in succesful_payloads:
-        print(f"{chr(0x09)*2}{payload}")
-    
+    print(f"{chr(0x0a)}Payload Successions:{chr(0x0a)}", *map(lambda x:f"{chr(0x09)}{x}{chr(0x0a)}", SQLi.get_success_responses()))
+    print("\n[Program Finished]\n")
 
 if(__name__=="__main__"):
     main()
-    print("\n[Program Finished]\n")

@@ -11,7 +11,7 @@
 <h1>SQLi-Tool</h1>
 Simple SQLi CLI tool. Dynamically sets the payload parameters and uses a wordlists of SQLi strings to scan a form for SQL vulnerabilities.
 
-<p id=1 style=text-decoration:italic;>type: CLI application</p>
+<p id=1 style="text-decoration:italic;:>type: CLI application</p>
 
 <h3 id="instructions" style="text-decoration:italic; font-size:12pt;">;Instructions:</h3>
 

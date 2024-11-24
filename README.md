@@ -5,6 +5,11 @@ Simple SQLi CLI tool. Dynamically sets the payload parameters and uses a wordlis
 
 
 ### **Instructions:**
+- ***Install***
+#### Once downloaded, be sure to navigate to the directory containing requirements.txt and install the dependancies using pip
+```sh
+python3 -m pip install ./requirements.txt
+```
 
 - ***Run***
 ```sh

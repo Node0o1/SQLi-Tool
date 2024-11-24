@@ -1,4 +1,14 @@
-# SQLi-Tool
+<style>
+  #1{
+    text-decoration:italic;
+  }
+  #2{
+    text-decoration:italic;
+    font-size:12pt;
+</style>
+
+
+<h1>SQLi-Tool</h1>
 Simple SQLi CLI tool. Dynamically sets the payload parameters and uses a wordlists of SQLi strings to scan a form for SQL vulnerabilities.
 
 <p id=1;>type: CLI application</p>

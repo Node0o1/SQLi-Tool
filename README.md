@@ -21,4 +21,4 @@ python3 ./sqli_tool.py --help
 ```
 ![helpMessage](https://github.com/user-attachments/assets/612eceba-cd81-4c40-9d62-394e2fda8333)
 
-### Currently only scans a specific url. Future plans include collecting all links from a domain and running SQLi-Tool against all local paths found. for SQLi vulnerabilities.
+### Currently only scans a specific url. Future plans include collecting all links from a domain and running SQLi-Tool against all local paths found.
